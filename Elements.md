@@ -48,7 +48,7 @@ CoreUnitDynamic1024:
   unitMass: 97131.76 # marxman: added: 8*L core mass
   hidden: false # marxman: changed from 2:
   requiredTalents: # marxman: added:
-  - name: ImprovedDynamicCoreUnitExpertise
+  - name: ImprovedCoreUnitExpertise
     level: 1
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
@@ -65,7 +65,7 @@ CoreUnitDynamic2048:
   unitMass: 97131.76 # marxman: added: 8*L core mass
   hidden: false # marxman: changed from 2:
   requiredTalents: # marxman: added:
-  - name: ImprovedDynamicCoreUnitExpertise
+  - name: ImprovedCoreUnitExpertise
     level: 2
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
@@ -82,7 +82,7 @@ CoreUnitDynamic4096:
   unitMass: 97131.76 # marxman: added: 8*L core mass
   hidden: false # marxman: changed from 2:
   requiredTalents: # marxman: added:
-  - name: ImprovedDynamicCoreUnitExpertise
+  - name: ImprovedCoreUnitExpertise
     level: 3
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
@@ -99,7 +99,7 @@ CoreUnitDynamic8192:
   unitMass: 97131.76
   hidden: false
   requiredTalents:
-  - name: ImprovedDynamicCoreUnitExpertise
+  - name: ImprovedCoreUnitExpertise
     level: 4
   hitpoints: 21420
 ```
