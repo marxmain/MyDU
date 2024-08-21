@@ -71,6 +71,20 @@ CoreUnitStatic4096:
 ```
 ### CoreUnitStatic8192:
 ```yaml
+CoreUnitStatic8192:
+  parent: CoreUnitStatic
+  constructSize: 8192
+  displayName: Static Core Unit 4096m
+  cellSize: 8.0
+  scale: xxxxxl
+  level: 4
+  unitVolume: 20008.00
+  unitMass: 97131.76
+  hidden: false
+  requiredTalents:
+  - name: ImprovedCoreUnitExpertise
+    level: 4
+  hitpoints: 21420
 ```
 ## Dynamic Cores
 ### CoreUnitDynamic512:
