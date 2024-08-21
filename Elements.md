@@ -35,7 +35,7 @@ CoreUnitDynamic512:
     level: 5
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
-# CoreUnitDynamic1024:
+### CoreUnitDynamic1024:
 ```yaml
 CoreUnitDynamic1024:
   parent: CoreUnitDynamic
