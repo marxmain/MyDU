@@ -5,7 +5,7 @@
 CoreUnitStatic512:
   parent: CoreUnitStatic
   constructSize: 512
-  displayName: Static Core Unit 256m
+  displayName: Static Core Unit
   cellSize: 0.5
   scale: xl # marxman: added: same size like L core
   level: 2 # marxman: changed from 1:
