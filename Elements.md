@@ -18,6 +18,26 @@ CoreUnitStatic512:
     level: 5
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
+### CoreUnitStatic1024:
+```yaml
+CoreUnitStatic1024:
+  parent: CoreUnitStatic
+  constructSize: 1024
+  displayName: Static Core Unit 512m
+  cellSize: 1.0
+  scale: xxl # marxman: added: same size like L core
+  level: 4 # marxman: changed from 1:
+  unitVolume: 20008.00 # marxman: added: 8*L core volume
+  unitMass: 97131.76 # marxman: added: 8*L core mass
+  hidden: false # marxman: changed from 2:
+  requiredTalents: # marxman: added:
+  - name: ImprovedCoreUnitExpertise
+    level: 1
+  hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
+```
+### CoreUnitStatic2048:
+```yaml
+```
 ## Dynamic Cores
 ### CoreUnitDynamic512:
 ```yaml
