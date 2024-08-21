@@ -69,4 +69,21 @@ CoreUnitDynamic2048:
     level: 2
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
+###  CoreUnitDynamic4096
+```yaml
+CoreUnitDynamic4096:
+  parent: CoreUnitDynamic
+  constructSize: 4096
+  displayName: Dynamic Core Unit 2048m
+  cellSize: 4.0
+  scale: xxxxl # marxman: added: same size like L core
+  level: 4 # marxman: changed from 1:
+  unitVolume: 20008.00 # marxman: added: 8*L core volume
+  unitMass: 97131.76 # marxman: added: 8*L core mass
+  hidden: false # marxman: changed from 2:
+  requiredTalents: # marxman: added:
+  - name: ImprovedDynamicCoreUnitExpertise
+    level: 3
+  hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
+```
 
