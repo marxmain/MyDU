@@ -1,7 +1,7 @@
 # Cores
 ## Static Core
 ### CoreUnitDynamic512:
-```
+```yaml
 CoreUnitStatic512:
   parent: CoreUnitStatic
   constructSize: 512
