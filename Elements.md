@@ -1,4 +1,5 @@
 # Cores
+Larger Cores are unlocked via the Improved Core Unit Expertise talent. If you don't want that, then just delete required Talents.
 ## Static Cores
 ### CoreUnitStatic512:
 ```yaml
