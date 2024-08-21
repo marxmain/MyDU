@@ -1,5 +1,6 @@
-# Static Core
-CoreUnitDynamic512:
+# Cores
+## Static Core
+### CoreUnitDynamic512:
 ```
 CoreUnitStatic512:
   parent: CoreUnitStatic
