@@ -13,3 +13,17 @@ ImprovedDynamicCoreUnitExpertise:
   costs: [1000000, 2000000, 3000000, 4000000, 5000000]
   effects: []
 ```
+### ImprovedStaticCoreUnitExpertise
+```yaml
+ImprovedStaticCoreUnitExpertise:
+  parent: Talent
+  displayName: Improved Dynamic Core Unit expertise
+  group: Architect
+  description: Static Core Unit unlock
+  order: 7
+  startingLevel: 1
+  requiredTalents:
+  - {name: "StaticCoreUnitExpertise", level: 5}
+  costs: [1000000, 2000000, 3000000, 4000000, 5000000]
+  effects: []
+```
