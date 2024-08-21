@@ -54,6 +54,20 @@ CoreUnitStatic2048:
 ```
 ### CoreUnitStatic4096:
 ```yaml
+CoreUnitStatic4096:
+  parent: CoreUnitStatic
+  constructSize: 4096
+  displayName: Static Core Unit 2048m
+  cellSize: 4.0
+  scale: xxxxl # marxman: added: same size like L core
+  level: 4 # marxman: changed from 1:
+  unitVolume: 20008.00 # marxman: added: 8*L core volume
+  unitMass: 97131.76 # marxman: added: 8*L core mass
+  hidden: false # marxman: changed from 2:
+  requiredTalents: # marxman: added:
+  - name: ImprovedCoreUnitExpertise
+    level: 3
+  hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
 ```
 ### CoreUnitStatic8192:
 ```yaml
