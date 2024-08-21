@@ -1,6 +1,6 @@
 # Static Core
 CoreUnitDynamic512:
-´´´
+```
 CoreUnitStatic512:
   parent: CoreUnitStatic
   constructSize: 512
@@ -15,4 +15,4 @@ CoreUnitStatic512:
   - name: StaticCoreUnitExpertise
     level: 5
   hitpoints: 21420 # marxman: changed from 50: 2*L core hitpoints
-´´´
+```
