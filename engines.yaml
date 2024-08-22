@@ -1,0 +1,2603 @@
+---
+AtmosphericEngineLarge:
+  displayName: Basic Atmospheric Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: AtmosphericEngineLargeGroup
+  level: 1
+  maxPower: 2160000
+  fuelRate: 5.12e-7
+  unitMass: 17000
+  t50: 8
+  unitVolume: 3355.4
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineLargeFreight:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Uncommon Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 2
+  maxPower: 2160000
+  fuelRate: 3.84e-7
+  unitMass: 11900
+  t50: 12
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineLargeFreight3:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Advanced Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 3
+  maxPower: 3240000
+  fuelRate: 2.88e-7
+  unitMass: 8330
+  t50: 18
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineLargeFreight4:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Rare Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 4
+  maxPower: 4320000
+  fuelRate: 2.16e-7
+  unitMass: 5831
+  t50: 27
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineLargeFreight5:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Exotic Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 5
+  maxPower: 5400000
+  fuelRate: 1.62e-7
+  unitMass: 4082
+  t50: 40.5
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineLargeManeuver:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Uncommon Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 2160000
+  fuelRate: 3.84e-7
+  unitMass: 17000
+  t50: 4
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+AtmosphericEngineLargeManeuver3:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Advanced Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 3240000
+  fuelRate: 2.88e-7
+  unitMass: 17000
+  t50: 2
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+AtmosphericEngineLargeManeuver4:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Rare Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 4320000
+  fuelRate: 2.16e-7
+  unitMass: 17000
+  t50: 1
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+AtmosphericEngineLargeManeuver5:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Exotic Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 5400000
+  fuelRate: 1.62e-7
+  unitMass: 17000
+  t50: 0.5
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+AtmosphericEngineLargeMilitary:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Uncommon Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 2592000
+  fuelRate: 6.144e-7
+  unitMass: 17000
+  t50: 8
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineLargeMilitary3:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Advanced Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 5184000
+  fuelRate: 7.373e-7
+  unitMass: 17000
+  t50: 8
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineLargeMilitary4:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Rare Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 7776000
+  fuelRate: 8.847e-7
+  unitMass: 17000
+  t50: 8
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineLargeMilitary5:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Exotic Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 10368000
+  fuelRate: 0.000001062
+  unitMass: 17000
+  t50: 8
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineLargeSafe:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Uncommon Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 2
+  maxPower: 2052000
+  fuelRate: 5.12e-7
+  unitMass: 17000
+  t50: 4
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineLargeSafe3:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Advanced Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 3
+  maxPower: 3078000
+  fuelRate: 5.12e-7
+  unitMass: 17000
+  t50: 2
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineLargeSafe4:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Rare Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 4
+  maxPower: 4104000
+  fuelRate: 5.12e-7
+  unitMass: 17000
+  t50: 1
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineLargeSafe5:
+  parent: AtmosphericEngineLargeGroup
+  displayName: Exotic Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 5
+  maxPower: 5130000
+  fuelRate: 5.12e-7
+  unitMass: 17000
+  t50: 0.5
+  unitVolume: 3355
+  hitpoints: 9388
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineMedium:
+  displayName: Basic Atmospheric Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: AtmosphericEngineMediumGroup
+  level: 1
+  maxPower: 360000
+  fuelRate: 6.4e-7
+  unitMass: 3000
+  t50: 4
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineMediumFreight:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Uncommon Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 2
+  maxPower: 360000
+  fuelRate: 4.8e-7
+  unitMass: 2100
+  t50: 6
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineMediumFreight3:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Advanced Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 3
+  maxPower: 540000
+  fuelRate: 3.6e-7
+  unitMass: 1470
+  t50: 9
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineMediumFreight4:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Rare Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 4
+  maxPower: 720000
+  fuelRate: 2.7e-7
+  unitMass: 1029
+  t50: 13.5
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineMediumFreight5:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Exotic Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 5
+  maxPower: 900000
+  fuelRate: 2.025e-7
+  unitMass: 720.3
+  t50: 20.25
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineMediumManeuver:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Uncommon Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 360000
+  fuelRate: 4.8e-7
+  unitMass: 3000
+  t50: 2
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+AtmosphericEngineMediumManeuver3:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Advanced Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 540000
+  fuelRate: 3.6e-7
+  unitMass: 3000
+  t50: 1
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+AtmosphericEngineMediumManeuver4:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Rare Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 720000
+  fuelRate: 2.7e-7
+  unitMass: 3000
+  t50: 0.5
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+AtmosphericEngineMediumManeuver5:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Exotic Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 900000
+  fuelRate: 2.025e-7
+  unitMass: 3000
+  t50: 0.25
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+AtmosphericEngineMediumMilitary:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Uncommon Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 432000
+  fuelRate: 7.68e-7
+  unitMass: 3000
+  t50: 4
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineMediumMilitary3:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Advanced Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 864000
+  fuelRate: 9.216e-7
+  unitMass: 3000
+  t50: 4
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineMediumMilitary4:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Rare Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 1296000
+  fuelRate: 0.000001106
+  unitMass: 3000
+  t50: 4
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineMediumMilitary5:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Exotic Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 1728000
+  fuelRate: 0.000001327
+  unitMass: 3000
+  t50: 4
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineMediumSafe:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Uncommon Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 2
+  maxPower: 342000
+  fuelRate: 6.4e-7
+  unitMass: 3000
+  t50: 2
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineMediumSafe3:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Advanced Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 3
+  maxPower: 513000
+  fuelRate: 6.4e-7
+  unitMass: 3000
+  t50: 1
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineMediumSafe4:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Rare Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 4
+  maxPower: 684000
+  fuelRate: 6.4e-7
+  unitMass: 3000
+  t50: 0.5
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineMediumSafe5:
+  parent: AtmosphericEngineMediumGroup
+  displayName: Exotic Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 5
+  maxPower: 855000
+  fuelRate: 6.4e-7
+  unitMass: 3000
+  t50: 0.25
+  unitVolume: 619.2
+  hitpoints: 1933
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineSmall:
+  displayName: Basic Atmospheric Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: AtmosphericEngineSmallGroup
+  level: 1
+  maxPower: 60000
+  fuelRate: 8e-7
+  unitMass: 540
+  t50: 2
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineSmallFreight:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Uncommon Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 2
+  maxPower: 60000
+  fuelRate: 6e-7
+  unitMass: 378
+  t50: 3
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineSmallFreight3:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Advanced Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 3
+  maxPower: 90000
+  fuelRate: 4.5e-7
+  unitMass: 264.6
+  t50: 4.5
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineSmallFreight4:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Rare Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 4
+  maxPower: 120000
+  fuelRate: 3.375e-7
+  unitMass: 185.2
+  t50: 6.75
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineSmallFreight5:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Exotic Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 5
+  maxPower: 150000
+  fuelRate: 2.531e-7
+  unitMass: 129.7
+  t50: 10.13
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineSmallManeuver:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Uncommon Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 60000
+  fuelRate: 6e-7
+  unitMass: 540
+  t50: 1
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+AtmosphericEngineSmallManeuver3:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Advanced Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 90000
+  fuelRate: 4.5e-7
+  unitMass: 540
+  t50: 0.5
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+AtmosphericEngineSmallManeuver4:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Rare Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 120000
+  fuelRate: 3.375e-7
+  unitMass: 540
+  t50: 0.25
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+AtmosphericEngineSmallManeuver5:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Exotic Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 150000
+  fuelRate: 2.531e-7
+  unitMass: 540
+  t50: 0.125
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+AtmosphericEngineSmallMilitary:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Uncommon Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 72000
+  fuelRate: 9.6e-7
+  unitMass: 540
+  t50: 2
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineSmallMilitary3:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Advanced Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 144000
+  fuelRate: 0.000001152
+  unitMass: 540
+  t50: 2
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineSmallMilitary4:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Rare Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 216000
+  fuelRate: 0.000001382
+  unitMass: 540
+  t50: 2
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineSmallMilitary5:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Exotic Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 288000
+  fuelRate: 0.000001659
+  unitMass: 540
+  t50: 2
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineSmallSafe:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Uncommon Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 2
+  maxPower: 57000
+  fuelRate: 8e-7
+  unitMass: 540
+  t50: 1
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineSmallSafe3:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Advanced Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 3
+  maxPower: 85500
+  fuelRate: 8e-7
+  unitMass: 540
+  t50: 0.5
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineSmallSafe4:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Rare Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 4
+  maxPower: 114000
+  fuelRate: 8e-7
+  unitMass: 540
+  t50: 0.25
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineSmallSafe5:
+  parent: AtmosphericEngineSmallGroup
+  displayName: Exotic Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 5
+  maxPower: 142500
+  fuelRate: 8e-7
+  unitMass: 540
+  t50: 0.125
+  unitVolume: 116.6
+  hitpoints: 162
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineXtraSmall:
+  displayName: Basic Atmospheric Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: AtmosphericEngineXtraSmallGroup
+  level: 1
+  maxPower: 10000
+  fuelRate: 0.000001
+  unitMass: 100
+  t50: 0.001
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineXtraSmallFreight:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Uncommon Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 2
+  maxPower: 10000
+  fuelRate: 7.5e-7
+  unitMass: 70
+  t50: 0.0015
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineXtraSmallFreight3:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Advanced Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 3
+  maxPower: 15000
+  fuelRate: 5.625e-7
+  unitMass: 49
+  t50: 0.00225
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineXtraSmallFreight4:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Rare Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 4
+  maxPower: 20000
+  fuelRate: 4.219e-7
+  unitMass: 34.3
+  t50: 0.003375
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineXtraSmallFreight5:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Exotic Freight Atmospheric Engine
+  subdescription: The Freight variation is lighter and consumes less fuel, but is slower to warm up.
+  level: 5
+  maxPower: 25000
+  fuelRate: 3.164e-7
+  unitMass: 24.01
+  t50: 0.005063
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+AtmosphericEngineXtraSmallManeuver:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Uncommon Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 10000
+  fuelRate: 7.5e-7
+  unitMass: 100
+  t50: 0.0005
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+AtmosphericEngineXtraSmallManeuver3:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Advanced Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 15000
+  fuelRate: 5.625e-7
+  unitMass: 100
+  t50: 0.00025
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+AtmosphericEngineXtraSmallManeuver4:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Rare Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 20000
+  fuelRate: 4.219e-7
+  unitMass: 100
+  t50: 0.000125
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+AtmosphericEngineXtraSmallManeuver5:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Exotic Maneuver Atmospheric Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 25000
+  fuelRate: 3.164e-7
+  unitMass: 100
+  t50: 0.0000625
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+AtmosphericEngineXtraSmallMilitary:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Uncommon Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 12000
+  fuelRate: 0.0000012
+  unitMass: 100
+  t50: 0.001
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineXtraSmallMilitary3:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Advanced Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 24000
+  fuelRate: 0.00000144
+  unitMass: 100
+  t50: 0.001
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineXtraSmallMilitary4:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Rare Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 36000
+  fuelRate: 0.000001728
+  unitMass: 100
+  t50: 0.001
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineXtraSmallMilitary5:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Exotic Military Atmospheric Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 48000
+  fuelRate: 0.000002074
+  unitMass: 100
+  t50: 0.001
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+AtmosphericEngineXtraSmallSafe:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Uncommon Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 2
+  maxPower: 9500
+  fuelRate: 0.000001
+  unitMass: 100
+  t50: 0.0005
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+AtmosphericEngineXtraSmallSafe3:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Advanced Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 3
+  maxPower: 14250
+  fuelRate: 0.000001
+  unitMass: 100
+  t50: 0.00025
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+AtmosphericEngineXtraSmallSafe4:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Rare Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 4
+  maxPower: 19000
+  fuelRate: 0.000001
+  unitMass: 100
+  t50: 0.000125
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+AtmosphericEngineXtraSmallSafe5:
+  parent: AtmosphericEngineXtraSmallGroup
+  displayName: Exotic Safe Atmospheric Engine
+  subdescription: The Safe variation is faster to warm up and more resistant, but is less powerful.
+  level: 5
+  maxPower: 23750
+  fuelRate: 0.000001
+  unitMass: 100
+  t50: 0.0000625
+  unitVolume: 22.6
+  hitpoints: 50
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineLarge:
+  displayName: Basic Space Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: SpaceEngineLargeGroup
+  level: 1
+  maxPower: 3240000
+  fuelRate: 2.56e-7
+  unitMass: 22472.8
+  t50: 16
+  unitVolume: 3071.4
+  hitpoints: 10000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineLargeFreight:
+  parent: SpaceEngineLargeGroup
+  displayName: Uncommon Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 2
+  maxPower: 3240000
+  fuelRate: 1.92e-7
+  unitMass: 19102
+  t50: 28
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineLargeFreight3:
+  parent: SpaceEngineLargeGroup
+  displayName: Advanced Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 3
+  maxPower: 4860000
+  fuelRate: 1.44e-7
+  unitMass: 16237
+  t50: 49
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineLargeFreight4:
+  parent: SpaceEngineLargeGroup
+  displayName: Rare Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 4
+  maxPower: 6480000
+  fuelRate: 0
+  unitMass: 13801
+  t50: 0
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+  maxPowerMultiplier: 1000
+---
+SpaceEngineLargeFreight5:
+  parent: SpaceEngineLargeGroup
+  displayName: Exotic Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 5
+  maxPower: 8100000
+  fuelRate: 8.1e-8
+  unitMass: 11731
+  t50: 150.1
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineLargeManeuver:
+  parent: SpaceEngineLargeGroup
+  displayName: Uncommon Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 3240000
+  fuelRate: 2.048e-7
+  unitMass: 22473
+  t50: 12
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+SpaceEngineLargeManeuver3:
+  parent: SpaceEngineLargeGroup
+  displayName: Advanced Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 4860000
+  fuelRate: 1.638e-7
+  unitMass: 22473
+  t50: 9
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+SpaceEngineLargeManeuver4:
+  parent: SpaceEngineLargeGroup
+  displayName: Rare Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 6480000
+  fuelRate: 1.311e-7
+  unitMass: 22473
+  t50: 6.75
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+SpaceEngineLargeManeuver5:
+  parent: SpaceEngineLargeGroup
+  displayName: Exotic Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 8100000
+  fuelRate: 1.049e-7
+  unitMass: 22473
+  t50: 5.063
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+SpaceEngineLargeMilitary:
+  parent: SpaceEngineLargeGroup
+  displayName: Uncommon Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 3888000
+  fuelRate: 3.072e-7
+  unitMass: 22473
+  t50: 16
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineLargeMilitary3:
+  parent: SpaceEngineLargeGroup
+  displayName: Advanced Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 7776000
+  fuelRate: 3.686e-7
+  unitMass: 22473
+  t50: 16
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineLargeMilitary4:
+  parent: SpaceEngineLargeGroup
+  displayName: Rare Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 11664000
+  fuelRate: 4.424e-7
+  unitMass: 22473
+  t50: 16
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineLargeMilitary5:
+  parent: SpaceEngineLargeGroup
+  displayName: Exotic Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 15552000
+  fuelRate: 5.308e-7
+  unitMass: 22473
+  t50: 16
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineLargeSafe:
+  parent: SpaceEngineLargeGroup
+  displayName: Uncommon Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 2
+  maxPower: 3240000
+  fuelRate: 2.304e-7
+  unitMass: 22473
+  t50: 8
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineLargeSafe3:
+  parent: SpaceEngineLargeGroup
+  displayName: Advanced Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 3
+  maxPower: 4860000
+  fuelRate: 2.074e-7
+  unitMass: 22473
+  t50: 4
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineLargeSafe4:
+  parent: SpaceEngineLargeGroup
+  displayName: Rare Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 4
+  maxPower: 6480000
+  fuelRate: 1.866e-7
+  unitMass: 22473
+  t50: 2
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineLargeSafe5:
+  parent: SpaceEngineLargeGroup
+  displayName: Exotic Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 5
+  maxPower: 8100000
+  fuelRate: 1.68e-7
+  unitMass: 22473
+  t50: 1
+  unitVolume: 3071
+  hitpoints: 100000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineMedium:
+  displayName: Basic Space Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: SpaceEngineMediumGroup
+  level: 1
+  maxPower: 540000
+  fuelRate: 3.2e-7
+  unitMass: 4092.06
+  t50: 4
+  unitVolume: 562.4
+  hitpoints: 2000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineMediumFreight:
+  parent: SpaceEngineMediumGroup
+  displayName: Uncommon Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 2
+  maxPower: 540000
+  fuelRate: 2.4e-7
+  unitMass: 3478
+  t50: 7
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineMediumFreight3:
+  parent: SpaceEngineMediumGroup
+  displayName: Advanced Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 3
+  maxPower: 810000
+  fuelRate: 1.8e-7
+  unitMass: 2957
+  t50: 12.25
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineMediumFreight4:
+  parent: SpaceEngineMediumGroup
+  displayName: Rare Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 4
+  maxPower: 1080000
+  fuelRate: 1.35e-7
+  unitMass: 2513
+  t50: 21.44
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineMediumFreight5:
+  parent: SpaceEngineMediumGroup
+  displayName: Exotic Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 5
+  maxPower: 1350000
+  fuelRate: 1.012e-7
+  unitMass: 2136
+  t50: 37.52
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineMediumManeuver:
+  parent: SpaceEngineMediumGroup
+  displayName: Uncommon Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 540000
+  fuelRate: 2.56e-7
+  unitMass: 4092
+  t50: 3
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+SpaceEngineMediumManeuver3:
+  parent: SpaceEngineMediumGroup
+  displayName: Advanced Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 810000
+  fuelRate: 2.048e-7
+  unitMass: 4092
+  t50: 2.25
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+SpaceEngineMediumManeuver4:
+  parent: SpaceEngineMediumGroup
+  displayName: Rare Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 1080000
+  fuelRate: 1.638e-7
+  unitMass: 4092
+  t50: 1.688
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+SpaceEngineMediumManeuver5:
+  parent: SpaceEngineMediumGroup
+  displayName: Exotic Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 1350000
+  fuelRate: 1.311e-7
+  unitMass: 4092
+  t50: 1.266
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+SpaceEngineMediumMilitary:
+  parent: SpaceEngineMediumGroup
+  displayName: Uncommon Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 648000
+  fuelRate: 3.84e-7
+  unitMass: 4092
+  t50: 4
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineMediumMilitary3:
+  parent: SpaceEngineMediumGroup
+  displayName: Advanced Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 1296000
+  fuelRate: 4.608e-7
+  unitMass: 4092
+  t50: 4
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineMediumMilitary4:
+  parent: SpaceEngineMediumGroup
+  displayName: Rare Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 1944000
+  fuelRate: 5.53e-7
+  unitMass: 4092
+  t50: 4
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineMediumMilitary5:
+  parent: SpaceEngineMediumGroup
+  displayName: Exotic Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 2592000
+  fuelRate: 6.636e-7
+  unitMass: 4092
+  t50: 4
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineMediumSafe:
+  parent: SpaceEngineMediumGroup
+  displayName: Uncommon Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 2
+  maxPower: 540000
+  fuelRate: 2.88e-7
+  unitMass: 4092
+  t50: 2
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineMediumSafe3:
+  parent: SpaceEngineMediumGroup
+  displayName: Advanced Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 3
+  maxPower: 810000
+  fuelRate: 2.592e-7
+  unitMass: 4092
+  t50: 1
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineMediumSafe4:
+  parent: SpaceEngineMediumGroup
+  displayName: Rare Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 4
+  maxPower: 1080000
+  fuelRate: 2.333e-7
+  unitMass: 4092
+  t50: 0.5
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineMediumSafe5:
+  parent: SpaceEngineMediumGroup
+  displayName: Exotic Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 5
+  maxPower: 1350000
+  fuelRate: 2.1e-7
+  unitMass: 4092
+  t50: 0.25
+  unitVolume: 562.4
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineSmall:
+  displayName: Basic Space Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: SpaceEngineSmallGroup
+  level: 1
+  maxPower: 90000
+  fuelRate: 4e-7
+  unitMass: 761.74
+  t50: 1
+  unitVolume: 105.24
+  hitpoints: 500
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineSmallFreight:
+  parent: SpaceEngineSmallGroup
+  displayName: Uncommon Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 2
+  maxPower: 90000
+  fuelRate: 3e-7
+  unitMass: 647.5
+  t50: 1.75
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineSmallFreight3:
+  parent: SpaceEngineSmallGroup
+  displayName: Advanced Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 3
+  maxPower: 135000
+  fuelRate: 2.25e-7
+  unitMass: 550.4
+  t50: 3.063
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineSmallFreight4:
+  parent: SpaceEngineSmallGroup
+  displayName: Rare Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 4
+  maxPower: 180000
+  fuelRate: 1.687e-7
+  unitMass: 467.8
+  t50: 5.359
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineSmallFreight5:
+  parent: SpaceEngineSmallGroup
+  displayName: Exotic Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 5
+  maxPower: 225000
+  fuelRate: 1.266e-7
+  unitMass: 397.6
+  t50: 9.379
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineSmallManeuver:
+  parent: SpaceEngineSmallGroup
+  displayName: Uncommon Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 90000
+  fuelRate: 3.2e-7
+  unitMass: 761.7
+  t50: 0.75
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+SpaceEngineSmallManeuver3:
+  parent: SpaceEngineSmallGroup
+  displayName: Advanced Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 135000
+  fuelRate: 2.56e-7
+  unitMass: 761.7
+  t50: 0.5625
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+SpaceEngineSmallManeuver4:
+  parent: SpaceEngineSmallGroup
+  displayName: Rare Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 180000
+  fuelRate: 2.048e-7
+  unitMass: 761.7
+  t50: 0.4219
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+SpaceEngineSmallManeuver5:
+  parent: SpaceEngineSmallGroup
+  displayName: Exotic Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 225000
+  fuelRate: 1.638e-7
+  unitMass: 761.7
+  t50: 0.3164
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+SpaceEngineSmallMilitary:
+  parent: SpaceEngineSmallGroup
+  displayName: Uncommon Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 108000
+  fuelRate: 4.8e-7
+  unitMass: 761.7
+  t50: 1
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineSmallMilitary3:
+  parent: SpaceEngineSmallGroup
+  displayName: Advanced Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 216000
+  fuelRate: 5.76e-7
+  unitMass: 761.7
+  t50: 1
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineSmallMilitary4:
+  parent: SpaceEngineSmallGroup
+  displayName: Rare Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 324000
+  fuelRate: 6.912e-7
+  unitMass: 761.7
+  t50: 1
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineSmallMilitary5:
+  parent: SpaceEngineSmallGroup
+  displayName: Exotic Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 432000
+  fuelRate: 8.294e-7
+  unitMass: 761.7
+  t50: 1
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineSmallSafe:
+  parent: SpaceEngineSmallGroup
+  displayName: Uncommon Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 2
+  maxPower: 90000
+  fuelRate: 3.6e-7
+  unitMass: 761.7
+  t50: 0.5
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineSmallSafe3:
+  parent: SpaceEngineSmallGroup
+  displayName: Advanced Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 3
+  maxPower: 135000
+  fuelRate: 3.24e-7
+  unitMass: 761.7
+  t50: 0.25
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineSmallSafe4:
+  parent: SpaceEngineSmallGroup
+  displayName: Rare Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 4
+  maxPower: 180000
+  fuelRate: 2.916e-7
+  unitMass: 761.7
+  t50: 0.125
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineSmallSafe5:
+  parent: SpaceEngineSmallGroup
+  displayName: Exotic Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 5
+  maxPower: 225000
+  fuelRate: 2.624e-7
+  unitMass: 761.7
+  t50: 0.0625
+  unitVolume: 105.2
+  hitpoints: 25000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineXtraLarge:
+  displayName: Basic Space Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: SpaceEngineXtraLargeGroup
+  level: 1
+  maxPower: 19440000
+  fuelRate: 2.048e-7
+  unitMass: 126238.98
+  t50: 32
+  unitVolume: 17148.8
+  hitpoints: 50000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraLargeFreight:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Uncommon Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 2
+  maxPower: 19440000
+  fuelRate: 1.536e-7
+  unitMass: 107303
+  t50: 56
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraLargeFreight3:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Advanced Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 3
+  maxPower: 29160000
+  fuelRate: 1.152e-7
+  unitMass: 91208
+  t50: 98
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraLargeFreight4:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Rare Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 4
+  maxPower: 38880000
+  fuelRate: 8.64e-8
+  unitMass: 77527
+  t50: 171.5
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraLargeFreight5:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Exotic Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 5
+  maxPower: 48600000
+  fuelRate: 6.48e-8
+  unitMass: 65898
+  t50: 300.1
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraLargeManeuver:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Uncommon Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 19440000
+  fuelRate: 1.638e-7
+  unitMass: 126239
+  t50: 24
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+SpaceEngineXtraLargeManeuver3:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Advanced Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 29160000
+  fuelRate: 1.311e-7
+  unitMass: 126239
+  t50: 18
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+SpaceEngineXtraLargeManeuver4:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Rare Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 38880000
+  fuelRate: 1.049e-7
+  unitMass: 126239
+  t50: 13.5
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+SpaceEngineXtraLargeManeuver5:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Exotic Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 48600000
+  fuelRate: 8.389e-8
+  unitMass: 126239
+  t50: 10.13
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+SpaceEngineXtraLargeMilitary:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Uncommon Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 23328000
+  fuelRate: 2.458e-7
+  unitMass: 126239
+  t50: 32
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineXtraLargeMilitary3:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Advanced Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 46656000
+  fuelRate: 2.949e-7
+  unitMass: 126239
+  t50: 32
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineXtraLargeMilitary4:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Rare Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 69984000
+  fuelRate: 3.539e-7
+  unitMass: 126239
+  t50: 32
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineXtraLargeMilitary5:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Exotic Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 93312000
+  fuelRate: 4.247e-7
+  unitMass: 126239
+  t50: 32
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineXtraLargeSafe:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Uncommon Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 2
+  maxPower: 19440000
+  fuelRate: 1.843e-7
+  unitMass: 126239
+  t50: 16
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineXtraLargeSafe3:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Advanced Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 3
+  maxPower: 29160000
+  fuelRate: 1.659e-7
+  unitMass: 126239
+  t50: 8
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineXtraLargeSafe4:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Rare Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 4
+  maxPower: 48600000
+  fuelRate: 1.493e-7
+  unitMass: 126239
+  t50: 4
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineXtraLargeSafe5:
+  parent: SpaceEngineXtraLargeGroup
+  displayName: Exotic Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 5
+  maxPower: 38880000
+  fuelRate: 1.344e-7
+  unitMass: 126239
+  t50: 2
+  unitVolume: 17149
+  hitpoints: 200000
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineXtraSmall:
+  displayName: Basic Space Engine
+  subdescription: The basic model is cheaper and more versatile.
+  parent: SpaceEngineXtraSmallGroup
+  level: 1
+  maxPower: 15000
+  fuelRate: 5e-7
+  unitMass: 146.23
+  t50: 0.25
+  unitVolume: 20.33
+  hitpoints: 100
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraSmallFreight:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Uncommon Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 2
+  maxPower: 15000
+  fuelRate: 3.75e-7
+  unitMass: 124.3
+  t50: 0.4375
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraSmallFreight3:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Advanced Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 3
+  maxPower: 22500
+  fuelRate: 2.813e-7
+  unitMass: 105.7
+  t50: 0.7656
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraSmallFreight4:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Rare Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 4
+  maxPower: 30000
+  fuelRate: 2.109e-7
+  unitMass: 89.8
+  t50: 1.34
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraSmallFreight5:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Exotic Freight Space Engine
+  subdescription: The Freight variation is lighter and consumes significantly less fuel, but is much slower to warm up.
+  level: 5
+  maxPower: 37500
+  fuelRate: 1.582e-7
+  unitMass: 76.33
+  t50: 2.345
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.4
+    thermic: 0.3
+    kinetic: 0.3
+    electromagnetic: 0.4
+---
+SpaceEngineXtraSmallManeuver:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Uncommon Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 2
+  maxPower: 15000
+  fuelRate: 4e-7
+  unitMass: 146.2
+  t50: 0.1875
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.3
+    thermic: 0.225
+    kinetic: 0.225
+    electromagnetic: 0.3
+---
+SpaceEngineXtraSmallManeuver3:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Advanced Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 3
+  maxPower: 22500
+  fuelRate: 3.2e-7
+  unitMass: 146.2
+  t50: 0.1406
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.2
+    thermic: 0.15
+    kinetic: 0.15
+    electromagnetic: 0.2
+---
+SpaceEngineXtraSmallManeuver4:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Rare Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 4
+  maxPower: 30000
+  fuelRate: 2.56e-7
+  unitMass: 146.2
+  t50: 0.1055
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.1
+    thermic: 0.075
+    kinetic: 0.075
+    electromagnetic: 0.1
+---
+SpaceEngineXtraSmallManeuver5:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Exotic Maneuver Space Engine
+  subdescription: The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.
+  level: 5
+  maxPower: 37500
+  fuelRate: 2.048e-7
+  unitMass: 146.2
+  t50: 0.0791
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0
+    thermic: 0
+    kinetic: 0
+    electromagnetic: 0
+---
+SpaceEngineXtraSmallMilitary:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Uncommon Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 2
+  maxPower: 18000
+  fuelRate: 6e-7
+  unitMass: 146.2
+  t50: 0.25
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineXtraSmallMilitary3:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Advanced Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 3
+  maxPower: 36000
+  fuelRate: 7.2e-7
+  unitMass: 146.2
+  t50: 0.25
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineXtraSmallMilitary4:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Rare Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 4
+  maxPower: 54000
+  fuelRate: 8.64e-7
+  unitMass: 146.2
+  t50: 0.25
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineXtraSmallMilitary5:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Exotic Military Space Engine
+  subdescription: The Military variation is more powerful and resistant, but consumes more fuel.
+  level: 5
+  maxPower: 72000
+  fuelRate: 0.000001037
+  unitMass: 146.2
+  t50: 0.25
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
+SpaceEngineXtraSmallSafe:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Uncommon Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 2
+  maxPower: 15000
+  fuelRate: 4.5e-7
+  unitMass: 146.2
+  t50: 0.125
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.5
+    thermic: 0.375
+    kinetic: 0.375
+    electromagnetic: 0.5
+---
+SpaceEngineXtraSmallSafe3:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Advanced Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 3
+  maxPower: 22500
+  fuelRate: 4.05e-7
+  unitMass: 146.2
+  t50: 0.0625
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.6
+    thermic: 0.45
+    kinetic: 0.45
+    electromagnetic: 0.6
+---
+SpaceEngineXtraSmallSafe4:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Rare Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 4
+  maxPower: 30000
+  fuelRate: 3.645e-7
+  unitMass: 146.2
+  t50: 0.03125
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.7
+    thermic: 0.525
+    kinetic: 0.525
+    electromagnetic: 0.7
+---
+SpaceEngineXtraSmallSafe5:
+  parent: SpaceEngineXtraSmallGroup
+  displayName: Exotic Safe Space Engine
+  subdescription: The Safe variation is significantly faster to warm up and more resistant.
+  level: 5
+  maxPower: 37500
+  fuelRate: 3.281e-7
+  unitMass: 146.2
+  t50: 0.01563
+  unitVolume: 20.33
+  hitpoints: 12500
+  resistances:
+    antimatter: 0.8
+    thermic: 0.6
+    kinetic: 0.6
+    electromagnetic: 0.8
+---
