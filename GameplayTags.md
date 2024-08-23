@@ -18,5 +18,5 @@ This list is not complete.
 |LightVerticalSmall|3231255047||Haven 1 Shuttles Landing|
 |Arkship|3021732516|tag_location_arkship|Arkship|
 |ContainerSmall|1689381593|community_rewards|Arkship|
-|CoreUnitStatic128|909184430|Accessible Structure|VR Tutorial  Artillery Base - Overview|
-
+|CoreUnitStatic128|909184430|Accessible Structure|VR Tutorial Artillery Base - Overview|
+|CoreUnitStatic32|2738359963|tag_exit_point|VR Tutorial exit_point - Overview|
