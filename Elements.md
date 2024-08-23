@@ -173,6 +173,23 @@ CoreUnitDynamic8192:
   hitpoints: 21420
 ```
 # IndustryInfrastructure
+## IndustryUnit
+```yaml
+IndustryUnit:
+  parent: IndustryInfrastructure
+  displayName: Industry
+  isUseable: true
+  productNameList: []
+  description: Industry Units are used to craft advanced and powerful items. They can only be used on Static Constructs.
+  visibilityLOD: 3
+  resistances:
+    antimatter: 0.0
+    thermic: 0.0
+    kinetic: 0.0
+    electromagnetic: 0.0
+  speedFactor: 0.1 # 1
+  industryEfficiency: 0.1 # 1
+```
 ## MiningUnit
 ```yaml
 MiningUnit:
