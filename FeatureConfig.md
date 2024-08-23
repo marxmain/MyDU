@@ -16,3 +16,9 @@ TerritoriesConfig:
   upkeepIntervalDays: 30
   upkeepFee: 10000
 ```
+# IndustryConfig:
+```yaml
+IndustryConfig:
+  parent: FeaturesConfig
+  minRecipeTime: 1
+```
