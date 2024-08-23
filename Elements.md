@@ -201,8 +201,5 @@ MiningUnitSmall1:
   unitMass: 180
   unitVolume: 70
   hitpoints: 2500
-  calibrationGracePeriodHours: 72
-  calibrationDecreaseRatePerHour: 0
-  isUseable: true
 ```
 
