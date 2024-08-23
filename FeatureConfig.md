@@ -20,5 +20,5 @@ TerritoriesConfig:
 ```yaml
 IndustryConfig:
   parent: FeaturesConfig
-  minRecipeTime: 1
+  minRecipeTime: 1 # 30
 ```
