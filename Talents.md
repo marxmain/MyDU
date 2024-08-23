@@ -12,4 +12,4 @@ ImprovedCoreUnitExpertise:
   effects: []
 ```
 There can only ever be one required Talent.
-
+# Changed Talents
