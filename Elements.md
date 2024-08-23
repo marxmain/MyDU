@@ -172,3 +172,37 @@ CoreUnitDynamic8192:
     level: 4
   hitpoints: 21420
 ```
+# IndustryInfrastructure
+## MiningUnit
+```yaml
+MiningUnit:
+  parent: IndustryInfrastructure
+  displayName: Mining units
+  description: Mining Units can be deployed on constructs in appropriate territories in order to extract raw ore from territory tiles. Mining units will need to be regularly calibrated for optimal usage.
+  visibilityLOD: 4
+  calibrationGracePeriodHours: 72
+  calibrationDecreaseRatePerHour: 0 # 0.00625
+  isUseable: true
+  miningEfficiency: 10.0 # 0.9
+  adjacentTerritoryBonus: 0.25 # 0.1
+  calibrationCooldownHour: 1 # 24
+  pickupCooldownHour: 1 # 24
+  stopCooldownHour: 1 # 24
+```
+### MiningUnitSmall
+```yaml
+MiningUnitSmall1:
+  displayName: Basic Mining Unit
+  scale: s
+  level: 1
+  parent: MiningUnit
+  oreTier: 1
+  miningEfficiency: 5.0
+  unitMass: 180
+  unitVolume: 70
+  hitpoints: 2500
+  calibrationGracePeriodHours: 72
+  calibrationDecreaseRatePerHour: 0
+  isUseable: true
+```
+
