@@ -20,7 +20,7 @@ cluster_settings = {
 # Function to generate cluster values
 def create_cluster_values(min_value, min_increase, max_increase, decrease_probability):
     values = []
-    current_value = min_valueore
+    current_value = min_value
     increasing = True
     
     while True:
