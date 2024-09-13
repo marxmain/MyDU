@@ -56,8 +56,8 @@ def create_cluster_values(min_value, min_increase, max_increase, decrease_probab
 # Function to create the distribution across territories
 def create_territory_distribution(territories, ore_presence):
     distribution = {}
-    
     i = 0  # Start at territory 0
+
     while i < territories:
         for ore_list, settings_key in [(tier_1, "tier_1"), (tier_2, "tier_2"), (tier_3, "tier_3"), (tier_4, "tier_4"), (tier_5, "tier_5")]:
             settings = cluster_settings[settings_key]
@@ -70,24 +70,26 @@ def create_territory_distribution(territories, ore_presence):
                 # Generate the cluster
                 cluster_values = create_cluster_values(settings["min_value"], settings["min_increase"], settings["max_increase"], settings["decrease_probability"])
 
-                # Apply cluster values sequentially across territories
+                # Apply cluster values sequentially across territories, respecting the boundary of territories
                 for value in cluster_values:
-                    if i < territories:  # Ensure we stay within the territories
-                        if str(i) not in distribution:
-                            distribution[str(i)] = {ore: settings["min_value"] for ore in ore_list}
-                        # Assign cluster values, ensuring no 0 values are set
-                        distribution[str(i)].update({ore: max(value, settings["min_value"]) for ore in ore_list})
-                        i += 1  # Move to the next territory
-                    else:
+                    if i >= territories:  # Ensure we stay within the territory limit
                         break
-            else:
-                # If no cluster is active, set the minimum value
-                if str(i) not in distribution:
-                    distribution[str(i)] = {}
-                for ore in ore_list:
-                    # Set the minimum value for all ores when no cluster is active
-                    distribution[str(i)][ore] = max(settings["min_value"], distribution.get(str(i), {}).get(ore, settings["min_value"]))
-                i += 1  # Move to the next territory
+                    if str(i) not in distribution:
+                        distribution[str(i)] = {ore: settings["min_value"] for ore in ore_list}
+                    # Assign cluster values, ensuring no 0 values are set
+                    distribution[str(i)].update({ore: max(value, settings["min_value"]) for ore in ore_list})
+                    i += 1  # Move to the next territory
+
+            if i >= territories:  # Break if we exceed the number of territories
+                break
+            
+        if not cluster_active or i >= territories:
+            # If no cluster is active, set the minimum value for ores
+            if str(i) not in distribution:
+                distribution[str(i)] = {}
+            for ore in ore_list:
+                distribution[str(i)][ore] = max(settings["min_value"], distribution.get(str(i), {}).get(ore, settings["min_value"]))
+            i += 1  # Move to the next territory
 
     return distribution
 
