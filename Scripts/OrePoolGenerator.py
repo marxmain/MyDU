@@ -1,5 +1,5 @@
-import json
 import random
+import json
 
 # Ore tiers and cluster settings
 tier_1 = ["AluminiumOre", "CarbonOre", "IronOre", "SiliconOre"]
@@ -17,7 +17,7 @@ cluster_settings = {
     "tier_5": {"cluster_probability": 0.10, "decrease_probability": 0.10, "min_value": 1, "min_increase": 2, "max_increase": 10},
 }
 
-# Function to generate cluster values
+# Function to generate cluster values for each ore independently
 def create_cluster_values(min_value, min_increase, max_increase, decrease_probability):
     values = []
     current_value = min_value
@@ -57,32 +57,36 @@ def create_cluster_values(min_value, min_increase, max_increase, decrease_probab
 def create_territory_distribution(territories, ore_presence):
     distribution = {}
 
-    # Loop through all territories and assign values for each ore individually
-    for i in range(territories):
-        if str(i) not in distribution:
-            distribution[str(i)] = {}
+    # Loop through each tier and assign values for each ore independently
+    for ore_list, settings_key in [(tier_1, "tier_1"), (tier_2, "tier_2"), (tier_3, "tier_3"), (tier_4, "tier_4"), (tier_5, "tier_5")]:
+        settings = cluster_settings[settings_key]
+        
+        # Process each ore independently to generate unique clusters for each ore
+        for ore in ore_list:
+            if not ore_presence.get(ore, False):
+                continue  # Skip ores that are not present on the planet
+            
+            cluster_active = False
+            cluster_values = []
+            territory_index = 0  # Start applying the cluster at territory 0
 
-        # Loop through each tier and each ore separately
-        for ore_list, settings_key in [(tier_1, "tier_1"), (tier_2, "tier_2"), (tier_3, "tier_3"), (tier_4, "tier_4"), (tier_5, "tier_5")]:
-            settings = cluster_settings[settings_key]
-            ore_list = [ore for ore in ore_list if ore_presence.get(ore, False)]
+            # Loop through all territories and assign values for this ore
+            for i in range(territories):
+                if str(i) not in distribution:
+                    distribution[str(i)] = {}
 
-            for ore in ore_list:
-                cluster_active = random.random() < settings["cluster_probability"]
-                if cluster_active:
-                    # Generate a new cluster for each ore independently
-                    cluster_values = create_cluster_values(settings["min_value"], settings["min_increase"], settings["max_increase"], settings["decrease_probability"])
+                # If there is no active cluster or the cluster has ended, decide whether to start a new one
+                if not cluster_active or not cluster_values:
+                    cluster_active = random.random() < settings["cluster_probability"]
+                    if cluster_active:
+                        cluster_values = create_cluster_values(settings["min_value"], settings["min_increase"], settings["max_increase"], settings["decrease_probability"])
 
-                    # Apply cluster values across territories
-                    for j in range(len(cluster_values)):
-                        if i + j < territories:
-                            if str(i + j) not in distribution:
-                                distribution[str(i + j)] = {}
-                            distribution[str(i + j)][ore] = max(cluster_values[j], settings["min_value"])
-                        else:
-                            break
+                # If there is an active cluster, assign cluster values sequentially
+                if cluster_active and cluster_values:
+                    value = cluster_values.pop(0)  # Get the next value in the cluster
+                    distribution[str(i)][ore] = max(value, settings["min_value"])
                 else:
-                    # Assign minimum values if no cluster is active
+                    # No active cluster, assign the minimum value for the ore
                     distribution[str(i)][ore] = settings["min_value"]
 
     return distribution
