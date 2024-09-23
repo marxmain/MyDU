@@ -5,7 +5,7 @@ import json
 tier_1 = ["AluminiumOre", "CarbonOre", "IronOre", "SiliconOre"]
 tier_2 = ["CalciumOre", "ChromiumOre", "CopperOre", "SodiumOre"]
 tier_3 = ["LithiumOre", "NickelOre", "SilverOre", "SulfurOre"]
-tier_4 = ["CobaltOre", "FlourineOre", "GoldOre", "ScandiumOre"]
+tier_4 = ["CobaltOre", "FluorineOre", "GoldOre", "ScandiumOre"]
 tier_5 = ["ManganeseOre", "NiodiumOre", "TitaniumOre", "VanadiumOre", "ThoramineOre"]
 
 # Cluster settings per ore tier
