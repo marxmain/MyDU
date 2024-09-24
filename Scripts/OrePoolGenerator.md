@@ -29,7 +29,7 @@ The ores are grouped into five tiers, each with different probabilities for clus
    - **Number of Territories**: Input the number of territories for the planet.
    - **Ore Presence**: For each ore, indicate whether it is present on the planet by typing `y` for yes or `n` for no.
 
-3. **Output**: The script creates a JSON file with the ore distribution for each territory based on the user inputs. The file will be saved with the provided name.
+3. **Output**: The script creates a JSON file with the ore distribution for each territory based on the user inputs. The file will be saved with the provided name. Replace it in your server files under data/pools and restart the stack.
 
 ## Example Interaction
 
