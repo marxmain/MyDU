@@ -21,7 +21,7 @@ The ores are grouped into five tiers, each with different probabilities for clus
 
 1. **Run the Script**: 
    ```bash
-   python ore_pool_generator.py
+   python OrePoolGenerator.py
    ```
 
 2. **Enter Inputs**:
